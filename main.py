@@ -4,7 +4,7 @@ import time
 
 progress_bar = st.sidebar.progress(0)
 status_text = st.sidebar.empty()
-last_rows = np.random.randn(1, 10)
+last_rows = np.random.randn(1, 5)
 chart = st.line_chart(last_rows)
 
 for i in range(1, 101):
